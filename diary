@@ -1,0 +1,39 @@
+27-Nov-2018 10:42:59
+[Warning: Data Variable name tag not
+properly aligned] 
+[> In gMATfileparam (line 122)
+  In data/loadRloadRawData (line 714)
+  In data/load>readMatFile (line 174)
+  In data/load (line 121)
+  In dataedit>Load_Data_Callback (line 3008)
+  In dataedit (line 451)
+  In @(hObject,eventdata)dataedit('Load_Data_Callback',hObject,eventdata,guidata(hObject))] 
+
+%Load Data
+P_C=data;
+File='C:\Users\Circuit\Desktop\MiniProject2\miniprojectr1_27_11_2018_10_35_38_0000.mat';
+P_C=load(P_C,File);
+
+%Valid dongle
+The trial number(s): 19 have been removed due to artifacts.
+Removed trial(s) 1 to get the same number of left and right trials.
+gbsanalyze
+[Warning: Data Variable name tag not
+properly aligned] 
+[> In gMATfileparam (line 122)
+  In data/loadRloadRawData (line 714)
+  In data/load>readMatFile (line 174)
+  In data/load (line 121)
+  In dataedit>Load_Data_Callback (line 3008)
+  In dataedit (line 451)
+  In @(hObject,eventdata)dataedit('Load_Data_Callback',hObject,eventdata,guidata(hObject))] 
+
+%Load Data
+P_C=data;
+File='C:\Users\Circuit\Desktop\MiniProject2\newtraining_1_27_11_2018_11_24_39_0000.mat';
+P_C=load(P_C,File);
+
+%Valid dongle
+The trial number(s): 1  2  3  4  5  6  7  8 have been removed due to artifacts.
+Removed trial(s) 1  3 to get the same number of left and right trials.
+
